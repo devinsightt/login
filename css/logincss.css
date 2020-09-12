@@ -1,0 +1,56 @@
+*
+{
+	margin: 0; padding: 0;
+	color: white;	
+}
+
+header
+{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url('../images/loginback.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+header .login_main 
+{
+	text-align: center;
+	display: block;
+	width: 250px;
+	height: 400px;
+	background-color: #438880;
+	border: 2px solid white;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0.8;
+
+
+}
+
+
+header .login_main input
+{
+	padding: 5px;
+	border-radius: 1rem;
+	border-style: none;
+}
+
+header .login_main button
+{
+	padding: 4px;
+}
+
+
+header .login_main p
+{
+	width: 250px;
+	background-color: #05426c;
+}
+
+
+
